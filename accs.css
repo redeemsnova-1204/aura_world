@@ -1,0 +1,123 @@
+/* Remove default space */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background colour */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(106, 73, 106),black
+        
+    );
+    color: white;
+}
+
+/* Header */
+.header {
+    background-color: #100D19;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* Main heading */
+.heading {
+    text-align: center;
+    padding: 55px 15px 35px;
+}
+
+.heading h1 {
+    color: #F5DDAA;
+    margin-bottom: 12px;
+}
+
+.heading p {
+    color: #D5C9E5;
+}
+
+/* Product layout */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 25px 5%;
+}
+
+/* Product card */
+.card {
+    background-color: #302644;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #59476D;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #F5DDAA;
+    margin: 8px;
+}
+
+.card h4 {
+    margin-bottom: 18px;
+}
+
+/* Buy button */
+.buy {
+    display: block;
+    background-color: #F5DDAA;
+    color: #171329;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer .footer{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+/* Mobile screen
+@media (max-width: 700px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card img {
+        height: 130px;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+} */

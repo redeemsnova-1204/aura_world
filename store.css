@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 a {
+    list-style: none;
+    text-decoration-line: none;
+
+
+}
+
+.title1 {
+    display: inline-block;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 12px;
+        border: solid;
+    }
+}
+
+.ctbutton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+
+    a {
+        color: rgb(249, 242, 242);
+        text-decoration: none;
+        margin-left: 50px;
+        margin: 10px;
+    }
+}
+
+.ctbutton a:hover {
+    color: rgb(14, 213, 57);
+    text-decoration: underline;
+}
+
+.luffy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: white;
+    border: 10px;
+}
+
+.luffy img {
+    border-radius: 20px;
+    height: 400px;
+    width: 200px;
+    border: solid;
+    margin: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background-color: black;
+}
+.buttons a li {
+    color: rgb(41, 44, 41);
+    margin: 10px;
+    width: 90px;
+    height: 15px;
+}
+
+.buttons>a .but1:hover {
+    color: rgb(196, 129, 42);
+    background-color: silver;
+}
+.buttons>a .but2:hover {
+    color: rgb(196, 129, 42);
+    background-color:silver;}
+.buttons>a .but3:hover {
+    color: silver;
+    background-color:silver;
+}
+.buttons button {
+    background-color: rgb(235, 241, 233);
+    border-radius: 50px;
+    
+}
+.line1{
+    width: 800px;
+}
+.zenitsu img{
+    padding-left: 250px;
+    position:absolute;
+}
+.zenitsu-text{
+    position: absolute;
+    top: 100px;
+    left: 7%;
+    color: rgb(241, 236, 228);
+    margin-top: 540px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.zenitsu-text h2:hover{
+}
+.zenitsu-text h3:hover{
+    color:paleturquoise;
+}
+.zenitsu-text button{
+    background-color: rgba(238, 250, 15, 0.699);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.zenitsu-text button:hover{
+    color: antiquewhite;
+}
+.zenitsu-text a button{
+    margin-top: 100px;
+    border: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.luffy :hover
+{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+.product h6{
+    color: black;
+
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #e9efeb;
+}

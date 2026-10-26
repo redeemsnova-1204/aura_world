@@ -298,14 +298,14 @@ background-color: rgb(255, 255, 255);
         width: 250px;
     }
 }
-footer{
-    height: 1px;
-    width: 93.3%;
-    color: white;
+footer {
     background-color: black;
+    color: white;
     text-align: center;
-    padding: 50px;
+    padding: 15px;
+    margin-top: 63px;
 }
+
 .products p{
     color: gold;
 }

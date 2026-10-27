@@ -70,21 +70,29 @@ h2 {
 
 /* Buy button */
 
-button {
-    background-color: white;
+button:hover {
+    background-color: red;
     color: black;
-    border: 1px solid lightgray;
-    padding: 10px 25px;
-    cursor: pointer;
+
 }
 
-button:hover {
-    background-color: darkred;
-    color: white;
-}
 .footer {
     text-align: center;
     padding: 25px;
     background: black;
     color: white;
+}
+
+.card a button {
+    background-color: rgb(75, 9, 9);
+    border-radius: 20px;
+    color: aliceblue;
+    border: 1px solid lightgray;
+    padding: 10px 25px;
+}
+
+.card a button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }

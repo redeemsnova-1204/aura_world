@@ -78,8 +78,8 @@ button {
 }
 
 button:hover {
-    background-color: orangered;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 footer {
@@ -88,4 +88,10 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 63px;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
 }

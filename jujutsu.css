@@ -71,16 +71,17 @@ h2 {
 /* Buy button */
 
 button {
-    background-color: white;
-    color: black;
+    background-color: indigo;
+    color: white;
     border: 1px solid lightgray;
     padding: 10px 25px;
     cursor: pointer;
+    border-radius: 20PX;
 }
 
 button:hover {
-    background-color: indigo;
-    color: white;
+    background-color:white;
+    color: black;
 }
 .footer {
     background-color: black;

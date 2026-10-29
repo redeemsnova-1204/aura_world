@@ -68,19 +68,19 @@ h2 {
     color: gray;
 }
 
-/* Buy button */
 
 button {
-    background-color: white;
-    color: black;
+    background-color: darkolivegreen;
+    color: white;
     border: 1px solid lightgray;
     padding: 10px 25px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 button:hover {
-    background-color: darkolivegreen;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .footer {

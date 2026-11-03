@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: radial-gradient(red,blue,violet,orange,green
+    background-image: radial-gradient(wheat,white
     );
     color: white;
 }
@@ -48,11 +48,13 @@ body {
 
 .details {
     background-color: white;
-    border: 2px black solid;
+    border: 2px black dashed;
     padding: 30px;
     margin: 30px auto;
     max-width: 450px;
     border-radius: 10px;
+ 
+    
 }
 
 .details h3 {

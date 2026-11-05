@@ -23,8 +23,8 @@
 
 .logos {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center;
     img {
         border-radius: 50px;
         margin-top: 10px;
@@ -35,9 +35,7 @@
 
 .ctbutton {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    margin-left: 400px;
-    margin-top: 50px;
+    margin: 0 auto;
 
     a {
         color: rgb(249, 242, 242);
@@ -132,7 +130,7 @@ body {
 }
 .luffy :hover
 {
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: transform 0.1s;
 }
 .product h6{

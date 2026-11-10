@@ -110,11 +110,7 @@ body {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.zenitsu-text h2:hover{
-}
-.zenitsu-text h3:hover{
-    color:paleturquoise;
-}
+
 .zenitsu-text button{
     background-color: rgba(238, 250, 15, 0.699);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

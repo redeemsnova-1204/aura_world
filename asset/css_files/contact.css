@@ -19,6 +19,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
 .header h2 {
     color: #F5DDAA;

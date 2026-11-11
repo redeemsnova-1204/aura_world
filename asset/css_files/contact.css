@@ -12,14 +12,14 @@ body {
 }
 
 /* Header */
-.header {
-    background-color: #100D19;
-    padding: 20px 5%;
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .header h2 {
     color: #F5DDAA;
 }

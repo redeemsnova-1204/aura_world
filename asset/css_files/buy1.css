@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -10,18 +11,19 @@ body {
 }
 
 header {
+    background-color: black;
+    color: white;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    background:black;
-    border-bottom: 1px solid #ddd;
 }
 
 .logo {
     font-family: Georgia, serif;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
+    margin-right: 39px;
 }
 
 nav a {
@@ -47,7 +49,7 @@ nav a {
     box-shadow: 0 0 20px black;
 
 }
-
+ 
 
 .tag {
     color: #658a77;

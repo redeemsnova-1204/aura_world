@@ -13,9 +13,10 @@ body {
     color: white;
 }
 
-.header {
-    background-color: #100D19;
-    padding: 20px 5%;
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,13 +27,14 @@ body {
     font-size: 28px;
 }
 
-.menu a {
-    color: white;
+nav a {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: 5px;
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 14px;
+    border-radius: 10px;
 }
-
 .heading {
     text-align: center;
     padding: 55px 15px 35px;
